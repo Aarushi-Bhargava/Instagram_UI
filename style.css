@@ -1,0 +1,198 @@
+/* why im creating this project */
+body{
+    margin:0;
+}
+.context{
+    text-align:center;
+    height:10px;
+    margin-top: 15px;
+    font-family: 'Mulish', sans-serif;
+    font-size:20px;
+} 
+
+/*the bigger box which will change color upon hover*/
+.container{
+    position:absolute;
+    width:100%;
+    height:100%;
+    background: white;
+}
+
+/*smaller box where actual insta will be built*/
+.white-box{
+    width:85%;
+    height:85%;
+    margin-top:50px;
+    margin-left:auto;
+    margin-right:auto;
+
+    background: white;
+    box-shadow:0 1px 30px rgb(185, 66, 245);
+    border-radius: 5px;
+}
+
+/* where non-scrollable options like home, reels, messages will be */
+.nonscrollable-menu{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-right: 3px solid #e0e0e0;
+    background-color:black;
+    height: 100%;
+    width:20%;
+}
+.logo-name{
+    font-family: 'Style Script', cursive;
+    color:white;
+    margin-left:30px;
+    padding-top:25px;
+    font-size:30px;
+}
+
+#house_icon{
+    color:white;
+    margin-left:30px;
+    padding-top:40px;
+    font-size: 22px;
+    display: inline-block;
+    z-index:2;
+}
+
+#house_icon_name{
+    display: inline-block;
+    font-family: 'Mulish', sans-serif;
+    color: white;
+    font-size: 17px;
+    padding-left: 10px;
+    z-index:2;
+}
+
+.house_box{
+    background-color:grey;
+    width:310px;
+    height:50px;
+    margin-left:8px;
+    opacity:30%;
+    z-index: 1;
+}
+
+#search_icon{
+    color:white;
+    margin-left:30px;
+    padding-top:10px;
+    font-size: 22px;
+}
+
+#search_icon_name{
+    display: inline-block;
+    font-family: 'Mulish', sans-serif;
+    color: white;
+    font-size: 17px;
+    padding-left: 10px;
+}
+
+#explore_icon{
+    color:white;
+    margin-left:30px;
+    padding-top:10px;
+    font-size: 22px;
+}
+
+#explore_icon_name{
+    display: inline-block;
+    font-family: 'Mulish', sans-serif;
+    color: white;
+    font-size: 17px;
+    padding-left: 10px;
+}
+
+
+#reels_icon{
+    color:white;
+    margin-left:30px;
+    padding-top:10px;
+    font-size: 22px;
+}
+
+#reels_icon_name{
+    display: inline-block;
+    font-family: 'Mulish', sans-serif;
+    color: white;
+    font-size: 17px;
+    padding-left: 10px;
+}
+
+#messages_icon{
+    color:white;
+    margin-left:30px;
+    padding-top:10px;
+    font-size: 22px;
+}
+
+#messages_icon_name{
+    display: inline-block;
+    font-family: 'Mulish', sans-serif;
+    color: white;
+    font-size: 17px;
+    padding-left: 10px;
+}
+
+#heart_notif_icon{
+    color:white;
+    margin-left:30px;
+    padding-top:10px;
+    font-size: 22px;
+}
+
+#heart_notif_icon_name{
+    display: inline-block;
+    font-family: 'Mulish', sans-serif;
+    color: white;
+    font-size: 17px;
+    padding-left: 10px;
+}
+
+#create_icon{
+    color:white;
+    margin-left:30px;
+    padding-top:10px;
+    font-size: 22px;
+}
+
+#create_icon_name{
+    display: inline-block;
+    font-family: 'Mulish', sans-serif;
+    color: white;
+    font-size: 17px;
+    padding-left: 10px;
+}
+
+#profile_icon{
+    color:white;
+    margin-left:30px;
+    padding-top:10px;
+    font-size: 22px;
+}
+
+#profile_icon_name{
+    display: inline-block;
+    font-family: 'Mulish', sans-serif;
+    color: white;
+    font-size: 17px;
+    padding-left: 10px;
+}
+
+#more_icon{
+    color:white;
+    margin-left:30px;
+    padding-top:60px;
+    font-size: 22px;
+}
+
+#more_icon_name{
+    display: inline-block;
+    font-family: 'Mulish', sans-serif;
+    color: white;
+    font-size: 17px;
+    padding-left: 10px;
+}
+

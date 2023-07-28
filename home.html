@@ -1,0 +1,114 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset = "UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Instagram UI</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Mulish&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Style+Script&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/de51db155a.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <!-- container is the whole screen -->
+        <div class="container">
+            <!-- white box is where insta's design is -->
+            <div class="white-box">
+                <!-- side non-scrollable options like home, search, messages, etc -->
+                <div class="nonscrollable-menu">
+
+                    <div class="logo-name">Instagram</div>
+                
+                    <div class="house_icon_div">
+                        <i id="house_icon" class="fa-solid fa-house"></i>
+                        <p id="house_icon_name">Home</p>
+                        <div class="house_box"></div>
+                    </div>
+
+                
+
+                    <div class="search_icon_div">
+                        <i id="search_icon" class="fa-solid fa-magnifying-glass"></i>
+                        <p id="search_icon_name">Search</p>
+                        <div class="search_box"></div>
+                    </div>
+
+                
+
+                    <div class="explore_icon_div">
+                        <i id="explore_icon" class="fa-regular fa-compass"></i>
+                        <p id="explore_icon_name">Explore</p>
+                        <div class="explore_box"></div>
+                    </div>
+
+                
+
+                    <div class="reels_icon_div">
+                        <i id="reels_icon" class="fa-solid fa-clapperboard"></i>
+                        <p id="reels_icon_name">Reels</p>
+                        <div class="reels_box"></div>
+                    </div>
+
+                
+
+                    <div class="messages_icon_div">
+                        <i id="messages_icon" class="fa-brands fa-facebook-messenger"></i>
+                        <p id="messages_icon_name">Messages</p>
+                        <div class="messages_box"></div>
+                    </div>
+
+                
+
+                    <div class="heart_notif_icon_div">
+                        <i id="heart_notif_icon" class="fa-regular fa-heart"></i>
+                        <p id="heart_notif_icon_name">Notifications</p>
+                        <div class="heart_notif_box"></div>
+                    </div>
+
+                
+
+                    <div class="create_icon_div">
+                        <i id="create_icon" class="fa-regular fa-square-plus"></i>
+                        <p id="create_icon_name">Create</p>
+                        <div class="create_box"></div>
+                    </div>
+
+               
+
+                    <div class="profile_icon_div">
+                        <i id="profile_icon" class="fa-solid fa-user"></i>
+                        <p id="profile_icon_name">Profile</p>
+                        <div class="profile_box"></div>
+                    </div>
+
+               
+                    <div class="more_icon_div">
+                        <i id="more_icon" class="fa-solid fa-bars"></i>
+                        <p id="more_icon_name">More</p>
+                        <div class="more_box"></div>
+                    </div>
+
+            
+                </div>
+            </div>
+        </div>
+
+        <script>
+            $(".white-box").hover(
+                function() {
+                    $(".white-box").css("box-shadow","0 1px 30px rgba(255, 197, 63, 0.835)");
+                },
+                function(){
+                    $(".white-box").css("box-shadow", "0 1px 30px rgb(185, 66, 245)")
+                });
+
+
+        </script>
+    </body>
+
+</html>
